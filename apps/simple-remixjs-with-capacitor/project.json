@@ -1,0 +1,69 @@
+{
+  "name": "simple-remixjs-with-capacitor",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/simple-remixjs-with-capacitor/src",
+  "tags": [],
+  "targets": {
+    "build": {
+      "command": "remix build",
+      "options": {
+        "cwd": "{projectRoot}",
+        "postcssConfig": "{projectRoot}/postcss.config.js"
+      }
+    },
+    "start": {
+      "dependsOn": ["build"],
+      "command": "remix-serve ./build/index.js",
+      "options": {
+        "cwd": "{projectRoot}"
+      }
+    },
+    "dev": {
+      "command": "remix dev --manual",
+      "options": {
+        "cwd": "{projectRoot}"
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["{projectRoot}/**/*.{js,ts,jsx,tsx}"],
+        "fix": true,
+        "ignorePath": "{workspaceRoot}/.eslintignore"
+      }
+    },
+    "typecheck": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "{projectRoot}",
+        "commands": ["tsc -p tsconfig.json --noEmit"],
+        "forwardAllArgs": false
+      }
+    },
+    "stylelint": {
+      "executor": "nx-stylelint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["{projectRoot}/**/*.css"],
+        "fix": true,
+        "formatter": "compact"
+      }
+    },
+    "run-ios": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "{projectRoot}",
+        "commands": [
+          "rimraf ./ios",
+          "nx build simple-remixjs-with-capacitor",
+          "capacitor add ios",
+          "capacitor run ios --target=E3F9F201-28C4-4BFE-B0DB-AB8564B1C002",
+          "nx start simple-remixjs-with-capacitor"
+        ],
+        "parallel": false
+      }
+    }
+  }
+}

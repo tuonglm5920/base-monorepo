@@ -1,0 +1,9 @@
+# Use root node_modules to build ==> Ignore step install dependencies
+npmRebuild: false
+forceCodeSigning: true
+files:
+  - ../../node_modules
+  - build
+  - desktop
+  - public
+  - remix.config.js

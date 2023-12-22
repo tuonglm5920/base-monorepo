@@ -1,0 +1,66 @@
+{
+  "name": "simple-remixjs-with-http-electron",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/simple-remixjs-with-http-electron",
+  "tags": [],
+  "targets": {
+    "clean": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "{projectRoot}",
+        "command": "del-cli dist desktop/build public/build"
+      }
+    },
+    "dependenciesCopier": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "{workspaceRoot}",
+        "command": "node scripts/electron-builder/dependenciesCopier.js {projectRoot}/package.json",
+        "parallel": false
+      }
+    },
+    "build": {
+      "dependsOn": ["dependenciesCopier", "clean"],
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "{projectRoot}",
+        "commands": ["remix build", "electron-builder"],
+        "postcssConfig": "{projectRoot}/postcss.config.js",
+        "parallel": false
+      }
+    },
+    "start": {
+      "dependsOn": ["build"],
+      "command": "electron .",
+      "options": {
+        "cwd": "{projectRoot}"
+      }
+    },
+    "dev": {
+      "dependsOn": ["clean"],
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "remix dev --command \"nodemon .\" --manual",
+        "cwd": "{projectRoot}"
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["{projectRoot}/**/*.{js,ts,jsx,tsx}"],
+        "fix": true,
+        "ignorePath": "{workspaceRoot}/.eslintignore"
+      }
+    },
+    "typecheck": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "{projectRoot}",
+        "commands": ["tsc -p tsconfig.json --noEmit"],
+        "forwardAllArgs": false
+      }
+    }
+  }
+}

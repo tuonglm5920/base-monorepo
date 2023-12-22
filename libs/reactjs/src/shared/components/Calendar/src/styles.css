@@ -1,0 +1,12 @@
+.Calendar__daysOfWeek,
+.Calendar__rowDays {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.Calendar__daysOfWeek > .Calendar__dayOfWeek,
+.Calendar__rowDays > .Calendar__cellDay {
+  flex: 1 0 calc(100% / 7);
+}

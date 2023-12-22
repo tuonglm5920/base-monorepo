@@ -1,0 +1,10 @@
+/* Adjusts marker position to align its top-left corner with the given coordinates,
+   instead of centering it. This change is necessary for standardizing marker positions
+   when using Mapbox GL, ensuring consistent placement relative to the map. */
+.MapboxGL__standardizationMarker {
+  transform: translate(50%, 50%);
+}
+
+.MapboxGL__clickable {
+  cursor: pointer;
+}

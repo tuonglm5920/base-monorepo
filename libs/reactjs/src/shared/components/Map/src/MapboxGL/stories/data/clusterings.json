@@ -1,0 +1,2115 @@
+[
+  {
+      "properties": {
+          "name": "Niagara Falls",
+          "scalerank": 2,
+          "uid": "0"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 43.08771393436908,
+              "lng": -79.04411780507252
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Salto Angel",
+          "scalerank": 2,
+          "uid": "1"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 5.686896063275327,
+              "lng": -62.06181800038502
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Iguazu Falls",
+          "scalerank": 2,
+          "uid": "2"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -25.568291925005923,
+              "lng": -54.58299719960377
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Gees Gwardafuy",
+          "scalerank": 3,
+          "uid": "3"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 11.822028799226407,
+              "lng": 51.258313644180184
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Victoria Falls",
+          "scalerank": 3,
+          "uid": "4"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -17.928033135943423,
+              "lng": 25.852793816021233
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Wright I.",
+          "scalerank": 3,
+          "uid": "5"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -74.06670501094342,
+              "lng": -116.89262854726002
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Grant I.",
+          "scalerank": 3,
+          "uid": "6"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -74.48272063594342,
+              "lng": -131.48540198476002
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Newman I.",
+          "scalerank": 3,
+          "uid": "7"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -75.59185149531842,
+              "lng": -145.68681800038502
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Dean I.",
+          "scalerank": 3,
+          "uid": "8"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -74.50066497188092,
+              "lng": -127.63438880116627
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Canaveral",
+          "scalerank": 3,
+          "uid": "9"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 28.473056814472134,
+              "lng": -80.53625603636821
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Mendocino",
+          "scalerank": 3,
+          "uid": "10"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 40.44222065537283,
+              "lng": -124.39201745043425
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo San Lucas",
+          "scalerank": 3,
+          "uid": "11"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 22.887762762494077,
+              "lng": -109.96983801991627
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Churchill",
+          "scalerank": 3,
+          "uid": "12"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 58.75208161015033,
+              "lng": -93.18211829335377
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Cod",
+          "scalerank": 3,
+          "uid": "13"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 41.9914589934385,
+              "lng": -70.03687833567446
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape May",
+          "scalerank": 3,
+          "uid": "14"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 38.92969645987068,
+              "lng": -74.95121933164988
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo de Hornos",
+          "scalerank": 3,
+          "uid": "15"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -55.86284758906842,
+              "lng": -67.16942298085377
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape of Good Hope",
+          "scalerank": 3,
+          "uid": "16"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -34.30718352656842,
+              "lng": 18.441294792583733
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Palmas",
+          "scalerank": 3,
+          "uid": "17"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 4.373968817181577,
+              "lng": -7.457386848041267
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Verde",
+          "scalerank": 3,
+          "uid": "18"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 14.732489324994077,
+              "lng": -17.471730109760017
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cap Bon",
+          "scalerank": 3,
+          "uid": "19"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 37.07398102421283,
+              "lng": 11.024180534771233
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Oceanic pole of inaccessibility",
+          "scalerank": 3,
+          "uid": "20"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -48.86504485469342,
+              "lng": -123.40202796132252
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "South Magnetic Pole 2005 (est)",
+          "scalerank": 3,
+          "uid": "21"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -64.51824309688092,
+              "lng": 137.85425865977123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "North Magnetic Pole 2005 (est)",
+          "scalerank": 3,
+          "uid": "22"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 82.71008942265033,
+              "lng": -114.40569007069752
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Lands End",
+          "scalerank": 4,
+          "uid": "23"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 50.06970856327533,
+              "lng": -5.668629523822517
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape York",
+          "scalerank": 4,
+          "uid": "24"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 76.21887848515033,
+              "lng": -68.21861731679127
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Nunap Isua",
+          "scalerank": 4,
+          "uid": "25"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 59.86267731327533,
+              "lng": -43.90080725819752
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Vohimena",
+          "scalerank": 4,
+          "uid": "26"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -25.546319268755923,
+              "lng": 45.15870201914623
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Vavau",
+          "scalerank": 4,
+          "uid": "27"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -18.590020440630923,
+              "lng": -173.97673499257252
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "I. de Pascua",
+          "scalerank": 4,
+          "uid": "28"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -27.102227471880923,
+              "lng": -109.36790930897877
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Agulhas",
+          "scalerank": 4,
+          "uid": "29"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -34.80108001094342,
+              "lng": 19.993418816021233
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Plain of Jars",
+          "scalerank": 4,
+          "uid": "30"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 20.550909735150327,
+              "lng": 101.89063561289623
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo Corrientes",
+          "scalerank": 4,
+          "uid": "31"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 20.420365114940253,
+              "lng": -105.67795873874799
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Pt. Eugenia",
+          "scalerank": 4,
+          "uid": "32"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 27.842887092585283,
+              "lng": -115.04623945046137
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Point Conception",
+          "scalerank": 4,
+          "uid": "33"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 34.46027592467621,
+              "lng": -120.46360036202867
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Hatteras",
+          "scalerank": 4,
+          "uid": "34"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 35.24475263812895,
+              "lng": -75.54032952413311
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Sable",
+          "scalerank": 4,
+          "uid": "35"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 25.124762274212827,
+              "lng": -81.09044348866627
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Hope",
+          "scalerank": 4,
+          "uid": "36"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 68.35380207543972,
+              "lng": -166.81321268769543
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Point Barrow",
+          "scalerank": 4,
+          "uid": "37"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 71.40589128763096,
+              "lng": -156.4719492091668
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Punta Negra",
+          "scalerank": 4,
+          "uid": "38"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -5.948663018755923,
+              "lng": -81.10832678944752
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Punta Lavapié",
+          "scalerank": 4,
+          "uid": "39"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -37.17120002933805,
+              "lng": -73.60304396243782
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Punta Galera",
+          "scalerank": 4,
+          "uid": "40"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 0.731207586712827,
+              "lng": -80.06212317616627
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cap Lopez",
+          "scalerank": 4,
+          "uid": "41"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -0.615086490513119,
+              "lng": 8.727299789450319
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Bobaomby",
+          "scalerank": 4,
+          "uid": "42"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -11.966485284380923,
+              "lng": 49.26282799570873
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cap Blanc",
+          "scalerank": 4,
+          "uid": "43"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 20.822088934369077,
+              "lng": -17.052906867572517
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "South West Cape",
+          "scalerank": 5,
+          "uid": "44"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -43.5404025683706,
+              "lng": 146.03379804609568
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Howe",
+          "scalerank": 5,
+          "uid": "45"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -37.48894622188092,
+              "lng": 149.95838463633373
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Otway",
+          "scalerank": 5,
+          "uid": "46"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -38.85472383068997,
+              "lng": 143.537005108191
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Jaffa",
+          "scalerank": 5,
+          "uid": "47"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -36.95624316107086,
+              "lng": 139.68061977964746
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Carnot",
+          "scalerank": 5,
+          "uid": "48"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -34.93870859313661,
+              "lng": 135.65378326897053
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Byron",
+          "scalerank": 5,
+          "uid": "49"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -28.66197417050363,
+              "lng": 153.62799176015545
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Manifold",
+          "scalerank": 5,
+          "uid": "50"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -22.702080987505923,
+              "lng": 150.81116783945873
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape York",
+          "scalerank": 5,
+          "uid": "51"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -10.710747979693423,
+              "lng": 142.52173912852123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Melville",
+          "scalerank": 5,
+          "uid": "52"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -14.163506768755923,
+              "lng": 144.50660240977123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Arnhem",
+          "scalerank": 5,
+          "uid": "53"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -12.295662864626316,
+              "lng": 136.91481885262823
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "West Cape Howe",
+          "scalerank": 5,
+          "uid": "54"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -35.10430266719342,
+              "lng": 117.59693444102123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Leeuwin",
+          "scalerank": 5,
+          "uid": "55"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -34.328007092559645,
+              "lng": 115.1280088910596
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Pasley",
+          "scalerank": 5,
+          "uid": "56"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -33.92888762813092,
+              "lng": 123.51722252695873
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Londonderry",
+          "scalerank": 5,
+          "uid": "57"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -13.74290642667802,
+              "lng": 126.94130045687105
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Steep Point",
+          "scalerank": 5,
+          "uid": "58"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -26.157463616878637,
+              "lng": 113.14519563289093
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "North West Cape",
+          "scalerank": 5,
+          "uid": "59"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -21.801474697071743,
+              "lng": 114.16010761213809
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo Gracias a Dios",
+          "scalerank": 5,
+          "uid": "60"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 14.994208074994077,
+              "lng": -83.15874182851002
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Brewster",
+          "scalerank": 5,
+          "uid": "61"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 70.15088532108783,
+              "lng": -22.122731086322517
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Morris Jesup",
+          "scalerank": 5,
+          "uid": "62"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 83.62628815311908,
+              "lng": -32.49150550038502
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Grmsey",
+          "scalerank": 5,
+          "uid": "63"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 66.66937897343158,
+              "lng": -18.251088019916267
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Surtsey",
+          "scalerank": 5,
+          "uid": "64"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 63.21771881718158,
+              "lng": -20.434803840228767
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cap Est",
+          "scalerank": 5,
+          "uid": "65"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -15.274956964068423,
+              "lng": 50.49976647227123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Cretin",
+          "scalerank": 5,
+          "uid": "66"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -6.637261651568423,
+              "lng": 147.85242760508373
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Îles Chesterfield",
+          "scalerank": 5,
+          "uid": "67"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -19.204644464068423,
+              "lng": 159.95167076914623
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Pagan",
+          "scalerank": 5,
+          "uid": "68"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 18.119635321087827,
+              "lng": 145.78492272227123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Wake I.",
+          "scalerank": 5,
+          "uid": "69"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 19.303595282025327,
+              "lng": 166.63624108164623
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Tabiteuea",
+          "scalerank": 5,
+          "uid": "70"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -1.201348565630923,
+              "lng": 174.75513756602123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Aranuka",
+          "scalerank": 5,
+          "uid": "71"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 0.226752020306577,
+              "lng": 173.62623131602123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Nauru",
+          "scalerank": 5,
+          "uid": "72"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -0.505791925005923,
+              "lng": 166.93067467539623
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Ebon",
+          "scalerank": 5,
+          "uid": "73"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 4.599798895306577,
+              "lng": 168.73633873789623
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Jaluit",
+          "scalerank": 5,
+          "uid": "74"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 5.964483953900327,
+              "lng": 169.68299401133373
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Mili",
+          "scalerank": 5,
+          "uid": "75"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 6.107489324994077,
+              "lng": 171.72584069102123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Majuro",
+          "scalerank": 5,
+          "uid": "76"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 7.117987371869077,
+              "lng": 171.15980065195873
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Ailinglapalap",
+          "scalerank": 5,
+          "uid": "77"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 7.276495672650327,
+              "lng": 168.59693444102123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Kwajalein",
+          "scalerank": 5,
+          "uid": "78"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 8.746710516400327,
+              "lng": 167.73511803477123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Rongelap",
+          "scalerank": 5,
+          "uid": "79"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 11.164496160931577,
+              "lng": 166.86988365977123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Bikini",
+          "scalerank": 5,
+          "uid": "80"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 11.639288641400327,
+              "lng": 165.55042565195873
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Reinga",
+          "scalerank": 5,
+          "uid": "81"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -34.42039113947056,
+              "lng": 172.70558117137455
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Kanton",
+          "scalerank": 5,
+          "uid": "82"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -2.757134698443423,
+              "lng": -171.71703040272877
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Tabuaeran",
+          "scalerank": 5,
+          "uid": "83"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 3.866705633587827,
+              "lng": -159.32683264882252
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Malden",
+          "scalerank": 5,
+          "uid": "84"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -4.042657159380923,
+              "lng": -154.98350989491627
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Rarotonga",
+          "scalerank": 5,
+          "uid": "85"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -21.201836846880923,
+              "lng": -159.79771887929127
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Rangiroa",
+          "scalerank": 5,
+          "uid": "86"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -15.204766534380923,
+              "lng": -147.77403723866627
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Funafuti",
+          "scalerank": 5,
+          "uid": "87"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -8.491631768755923,
+              "lng": 179.19837487070873
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "St. Croix",
+          "scalerank": 5,
+          "uid": "88"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 17.763006903119077,
+              "lng": -64.76317298085377
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Grand Cayman",
+          "scalerank": 5,
+          "uid": "89"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 19.315802313275327,
+              "lng": -81.27159583241627
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "San  Salvador",
+          "scalerank": 5,
+          "uid": "90"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 24.052801824994077,
+              "lng": -74.49290930897877
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Grenada",
+          "scalerank": 5,
+          "uid": "91"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 12.105963446087827,
+              "lng": -61.72319495351002
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Barbuda",
+          "scalerank": 5,
+          "uid": "92"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 17.622626043744077,
+              "lng": -61.78929602772877
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Antigua",
+          "scalerank": 5,
+          "uid": "93"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 17.040594793744077,
+              "lng": -61.77592932851002
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Guadeloupe",
+          "scalerank": 5,
+          "uid": "94"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 16.180670477337827,
+              "lng": -61.65703284413502
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Dominica",
+          "scalerank": 5,
+          "uid": "95"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 15.452887274212827,
+              "lng": -61.35271155507252
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Martinique",
+          "scalerank": 5,
+          "uid": "96"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 14.672491766400327,
+              "lng": -61.00883948476002
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Saint Lucia",
+          "scalerank": 5,
+          "uid": "97"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 13.918280340619077,
+              "lng": -60.98222815663502
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Saint Vincent",
+          "scalerank": 5,
+          "uid": "98"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 13.270209051556577,
+              "lng": -61.20720374257252
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Barbados",
+          "scalerank": 5,
+          "uid": "99"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 13.164252020306577,
+              "lng": -59.56682288319752
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Tobago",
+          "scalerank": 5,
+          "uid": "100"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 11.259283758587827,
+              "lng": -60.67808997304127
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Margarita",
+          "scalerank": 5,
+          "uid": "101"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 10.981512762494077,
+              "lng": -64.05144202382252
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Curaao",
+          "scalerank": 5,
+          "uid": "102"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 12.185309149212827,
+              "lng": -68.99919593007252
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Aruba",
+          "scalerank": 5,
+          "uid": "103"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 12.502752996869077,
+              "lng": -69.96501624257252
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Ras Banäs",
+          "scalerank": 5,
+          "uid": "104"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 23.950628973431577,
+              "lng": 35.77808678477123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Ponta das Salinas",
+          "scalerank": 5,
+          "uid": "105"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -12.855718342716505,
+              "lng": 12.968705086077254
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Ponta das Palmeirinhas",
+          "scalerank": 5,
+          "uid": "106"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -9.099938228394153,
+              "lng": 13.033811372274608
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo Bojador",
+          "scalerank": 5,
+          "uid": "107"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 26.157965399212827,
+              "lng": -14.473194953510017
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Comorin",
+          "scalerank": 5,
+          "uid": "108"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 8.085338515340696,
+              "lng": 77.51210506924555
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Dondra Head",
+          "scalerank": 5,
+          "uid": "109"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 5.929580617022318,
+              "lng": 80.59180925571331
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Yelizavety",
+          "scalerank": 5,
+          "uid": "110"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 54.41620514530658,
+              "lng": 142.72059166758373
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Pt. Yuzhnyy",
+          "scalerank": 5,
+          "uid": "111"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 57.73346588749408,
+              "lng": 156.79664147227123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Sata",
+          "scalerank": 5,
+          "uid": "112"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 31.026922918744077,
+              "lng": 130.69520104258373
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Aniva",
+          "scalerank": 5,
+          "uid": "113"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 46.08179352421283,
+              "lng": 143.43482506602123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Terpeniya",
+          "scalerank": 5,
+          "uid": "114"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 48.66937897343158,
+              "lng": 144.71253502695873
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Lopatka",
+          "scalerank": 5,
+          "uid": "115"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 50.91412994999408,
+              "lng": 156.65162194102123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Ozernoy",
+          "scalerank": 5,
+          "uid": "116"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 57.77088043827533,
+              "lng": 163.24683678477123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Olyutorskiy",
+          "scalerank": 5,
+          "uid": "117"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 59.96082184452533,
+              "lng": 170.31287682383373
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Navarin",
+          "scalerank": 5,
+          "uid": "118"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 62.32727692265033,
+              "lng": 179.07422936289623
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Lopatka",
+          "scalerank": 5,
+          "uid": "119"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 71.90778229374408,
+              "lng": 150.06592858164623
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Ince",
+          "scalerank": 5,
+          "uid": "120"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 42.08417389530658,
+              "lng": 34.98328698008373
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Ras Fartak",
+          "scalerank": 5,
+          "uid": "121"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 15.65795249845498,
+              "lng": 52.2389696999939
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Ras Sharbatat",
+          "scalerank": 5,
+          "uid": "122"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 18.166986171245085,
+              "lng": 56.558165806017215
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Ra's al Had",
+          "scalerank": 5,
+          "uid": "123"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 22.518675327148298,
+              "lng": 59.7995168175437
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Hachijjima",
+          "scalerank": 5,
+          "uid": "124"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 33.10980866093158,
+              "lng": 139.80482018320873
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Nordkapp",
+          "scalerank": 5,
+          "uid": "125"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 71.15450206702127,
+              "lng": 25.66067519711473
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo de São Vicentete",
+          "scalerank": 5,
+          "uid": "126"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 37.03827545780658,
+              "lng": -8.969410773822517
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo Fisterra",
+          "scalerank": 5,
+          "uid": "127"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 42.92873605781255,
+              "lng": -9.26996282865152
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape San Blas",
+          "scalerank": 5,
+          "uid": "128"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 29.713995672650327,
+              "lng": -85.27092444569752
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Sable",
+          "scalerank": 5,
+          "uid": "129"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 43.46900055546283,
+              "lng": -65.61082923085377
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Bauld",
+          "scalerank": 5,
+          "uid": "130"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 51.56848786015033,
+              "lng": -55.43028723866627
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape Fear",
+          "scalerank": 5,
+          "uid": "131"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 33.86798737186908,
+              "lng": -77.99058997304127
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "I. Guadalupe",
+          "scalerank": 5,
+          "uid": "132"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 29.052496649212827,
+              "lng": -118.31749426991627
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Miquelon",
+          "scalerank": 5,
+          "uid": "133"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 46.92938873905658,
+              "lng": -56.32988440663502
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "I. Robinson Crusoe",
+          "scalerank": 5,
+          "uid": "134"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -33.58965422969342,
+              "lng": -78.87254798085377
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo Orange",
+          "scalerank": 5,
+          "uid": "135"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 4.135614177285231,
+              "lng": -51.26287766987179
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo de Santa Marta Grande",
+          "scalerank": 5,
+          "uid": "136"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -28.57198267323537,
+              "lng": -48.80338037734664
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Punta del Este",
+          "scalerank": 5,
+          "uid": "137"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -34.96658679840526,
+              "lng": -54.94628769070382
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo San Antonio",
+          "scalerank": 5,
+          "uid": "138"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -36.40959917438929,
+              "lng": -56.716792100626165
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo Corrientes",
+          "scalerank": 5,
+          "uid": "139"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -38.066376942128464,
+              "lng": -57.56252349612641
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Punta Rasa",
+          "scalerank": 5,
+          "uid": "140"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -40.72626411656719,
+              "lng": -62.25911745789756
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo Dos Bahías",
+          "scalerank": 5,
+          "uid": "141"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -44.89439847091873,
+              "lng": -65.5438334451688
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo Delgado",
+          "scalerank": 5,
+          "uid": "142"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -10.670098565630923,
+              "lng": 40.62440026133373
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Ponta da Barra",
+          "scalerank": 5,
+          "uid": "143"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -23.830010675005923,
+              "lng": 35.51563561289623
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Ponta São Sebastio",
+          "scalerank": 5,
+          "uid": "144"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -22.118829034380923,
+              "lng": 35.48023522227123
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Ras Cantin",
+          "scalerank": 5,
+          "uid": "145"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 32.58161041874408,
+              "lng": -9.273915168353767
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Ras Kasr",
+          "scalerank": 5,
+          "uid": "146"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 18.075167704493374,
+              "lng": 38.58027735871919
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Ponta de Jericoacoara",
+          "scalerank": 5,
+          "uid": "147"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -2.851822991583529,
+              "lng": -39.991649927946355
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo de São Roque",
+          "scalerank": 5,
+          "uid": "148"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -5.156866121305913,
+              "lng": -35.50994900651512
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Ponta da Baleia",
+          "scalerank": 5,
+          "uid": "149"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -17.678753845220847,
+              "lng": -39.14557867836578
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo de São Tomé",
+          "scalerank": 5,
+          "uid": "150"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -21.971754611783773,
+              "lng": -40.98763990313761
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo Frio",
+          "scalerank": 5,
+          "uid": "151"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -22.759730815669258,
+              "lng": -41.89015627474056
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo San Diego",
+          "scalerank": 5,
+          "uid": "152"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -54.64067962031842,
+              "lng": -65.21361243397877
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cabo Tres Puntas",
+          "scalerank": 5,
+          "uid": "153"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -47.328778975372465,
+              "lng": -65.74439816328368
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cap Saint André",
+          "scalerank": 5,
+          "uid": "154"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -16.174493096880923,
+              "lng": 44.46729576914623
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape St. Lucia",
+          "scalerank": 5,
+          "uid": "155"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -28.552666925005923,
+              "lng": 32.36732018320873
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Cape St. Francis",
+          "scalerank": 5,
+          "uid": "156"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -34.18861022316314,
+              "lng": 24.84143613032799
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Minamitori-shima",
+          "scalerank": 5,
+          "uid": "157"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 24.319769598431577,
+              "lng": 153.95887291758373
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Is. Martin Vaz",
+          "scalerank": 5,
+          "uid": "158"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": -20.559502862505923,
+              "lng": -29.338429328510017
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Rockall",
+          "scalerank": 5,
+          "uid": "159"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 58.16339752811908,
+              "lng": -12.408741828510017
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "I. de Cozumel",
+          "scalerank": 5,
+          "uid": "160"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 20.444708563275327,
+              "lng": -86.88060462147877
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Bermuda Islands",
+          "scalerank": 5,
+          "uid": "161"
+      },
+      "geometry": {
+          "coordinate": {
+              "lat": 32.31726715702533,
+              "lng": -64.74290930897877
+          }
+      }
+  },
+  {
+      "properties": {
+          "name": "Null Island",
+          "scalerank": 0,
+          "uid": "162"
+      }
+  }
+]

@@ -1,0 +1,16 @@
+# Use root node_modules to build ==> Ignore step install dependencies
+npmRebuild: false
+forceCodeSigning: true
+files:
+  - ../../node_modules
+  - remix-electron-setup
+  - build
+  - desktop
+  - public
+  - remix.config.js
+mac:
+  hardenedRuntime: true
+  entitlements: entitlements.mac.plist
+  extendInfo:
+    NSMicrophoneUsageDescription: Please give us access to your microphone
+    NSCameraUsageDescription: Please give us access to your camera

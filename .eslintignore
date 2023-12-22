@@ -1,0 +1,9 @@
+node_modules
+.husky
+.yarn
+package.json
+dist
+build
+.cache
+.nx_cache
+.nx

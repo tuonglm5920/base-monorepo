@@ -1,0 +1,53 @@
+
+.comparison {
+  width: 500px;
+  margin: 20px auto;
+}
+
+.comparison__cell {
+  display: inline-block;
+  width: 50%;
+  height: 70px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+
+  border: 1px solid #ddd;
+}
+
+.comparison__cell_first {
+  border-right: none;
+}
+
+.comparison__cell_head {
+  height: auto;
+
+  font-size: 0.8em;
+  text-align: left;
+  color: #666;
+  border-color: transparent;
+}
+
+.timer {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.timer {
+  font-size: 1.6em;
+}
+
+.timer__dot {
+  display: inline-block;
+  margin-right: 6px;
+
+  color: #fcd352;
+  transform: translateY(-2px);
+}
+
+.timer__dot:before {
+  content: "●";
+}

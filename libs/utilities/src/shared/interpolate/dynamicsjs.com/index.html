@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="editor.css" />
+    <script src="lib/dynamics.js"></script>
+    <script src="editor.js"></script>
+  </head>
+  <body>
+    <section class="editor"></section>
+    <section class="demo">
+      <div class="track">
+        <span class="circle circle0"></span>
+        <span class="circle circle1"></span>
+        <span class="index index0">0</span>
+        <span class="index index1">1</span>
+      </div>
+    </section>
+    <span style="display: none"></span>
+    <script>
+      var editor = new dynamics.Editor({});
+      document.querySelector(".editor").appendChild(editor.el);
+
+      // Toggle slow on every iframe
+      window.addEventListener("keyup", function (e) {
+        // Enable slow animations with ctrl+shift+D
+        if (e.keyCode == 68 && e.shiftKey && e.ctrlKey) {
+          var iframes = document.querySelectorAll("iframe");
+          for (var i = 0; i < iframes.length; i++) {
+            var iframe = iframes[i];
+            iframe.contentWindow.dynamics.toggleSlow();
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

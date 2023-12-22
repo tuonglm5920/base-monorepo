@@ -1,0 +1,19 @@
+.Leaflet__divIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 0px !important;
+  height: 0px !important; */
+  cursor: initial !important;
+}
+
+/* Adjusts marker position to align its top-left corner with the given coordinates,
+   instead of centering it. This change is necessary for standardizing marker positions
+   when using Mapbox GL, ensuring consistent placement relative to the map. */
+.Leaflet__standardizationMarker {
+  transform: translate(50%, 50%);
+}
+
+.Leaflet__clickable {
+  cursor: pointer;
+}
