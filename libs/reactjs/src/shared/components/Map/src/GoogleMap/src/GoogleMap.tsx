@@ -348,7 +348,7 @@ const GoogleMapComponent = <P extends PointExtendProps>(props: Props<P>, ref?: R
 
   return (
     <GoogleMapReact
-      style={{ height, width }}
+      style={{ height, width, position: 'relative' }}
       bootstrapURLKeys={googleApiConfig}
       defaultCenter={defaultCenter}
       defaultZoom={defaultZoom}
