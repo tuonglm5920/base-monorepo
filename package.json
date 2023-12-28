@@ -123,6 +123,7 @@
     "autoprefixer": "10.4.16",
     "axios-mock-adapter": "1.22.0",
     "chokidar": "^3.5.3",
+    "comment-json": "4.2.3",
     "cross-env": "7.0.3",
     "cypress": "13.6.0",
     "del-cli": "5.1.0",

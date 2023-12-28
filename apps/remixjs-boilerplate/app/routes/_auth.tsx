@@ -1,6 +1,6 @@
 import { Outlet } from '@remix-run/react';
-import { authSessionStorage } from '../packages/Auth/sessionStorage';
 import type { LoaderFunctionArgs } from '@remix-run/server-runtime';
+import { authSessionStorage } from '~/packages/Auth/sessionStorage';
 
 export const loader = async ({ request }: LoaderFunctionArgs) => {
   await authSessionStorage.guard({

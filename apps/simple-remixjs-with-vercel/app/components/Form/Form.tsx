@@ -2,7 +2,7 @@ import { plusSvg } from 'assets';
 import { FC, FormEvent, useState } from 'react';
 import { Text } from 'reactjs';
 import { v4 } from 'uuid';
-import { Todo } from '../../models/Todo';
+import { Todo } from '~/models/Todo';
 
 interface Props {
   addTodo: (todo: Todo) => void;

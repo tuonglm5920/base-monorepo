@@ -2,9 +2,9 @@ import { LoaderFunctionArgs, MetaFunction, json } from '@remix-run/node';
 import { useLoaderData, useRouteLoaderData } from '@remix-run/react';
 import { FC } from 'react';
 import { View } from 'reactjs';
-import { GetContinentsDocument } from '../graphql';
-import { getApolloClientForRemixServer } from '../packages/ApolloClient/server';
 import { loader as accountLayoutLoeader } from './_account';
+import { GetContinentsDocument } from '~/graphql';
+import { getApolloClientForRemixServer } from '~/packages/ApolloClient/server';
 
 export const meta: MetaFunction = () => {
   return [{ title: 'New Remix App' }, { name: 'description', content: 'Welcome to Remix!' }];

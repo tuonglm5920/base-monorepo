@@ -2,10 +2,10 @@ import { MetaFunction } from '@remix-run/node';
 import classNames from 'classnames';
 import { FC, useState } from 'react';
 import { Text, View } from 'reactjs';
-import FilterButton from '../components/FilterButton/FilterButton';
-import { Form } from '../components/Form/Form';
-import { Todo } from '../components/Todo/Todo';
-import { Todo as TodoModel } from '../models/Todo';
+import FilterButton from '~/components/FilterButton/FilterButton';
+import { Form } from '~/components/Form/Form';
+import { Todo } from '~/components/Todo/Todo';
+import { Todo as TodoModel } from '~/models/Todo';
 
 export const meta: MetaFunction = () => {
   return [{ title: 'New Remix App' }, { name: 'description', content: 'Welcome to Remix!' }];
