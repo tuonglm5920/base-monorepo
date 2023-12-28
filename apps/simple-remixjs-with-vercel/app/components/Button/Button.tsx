@@ -1,11 +1,14 @@
 import './Button.css';
 import dayjs from 'dayjs';
 import { FC } from 'react';
+import { View } from 'reactjs';
 import { isClampDate } from 'utilities';
 
 export const Button: FC = () => {
   return (
-    <button
+    <View
+      tagName="button"
+      disableStrict
       onClick={(): void => {
         const today = dayjs('06/09/2023'); // 06/09/2023
         const isDayOf2023 = isClampDate({
@@ -17,6 +20,6 @@ export const Button: FC = () => {
       }}
     >
       Click
-    </button>
+    </View>
   );
 };

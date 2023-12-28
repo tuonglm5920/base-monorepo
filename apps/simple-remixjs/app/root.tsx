@@ -2,6 +2,7 @@ import { cssBundleHref } from '@remix-run/css-bundle';
 import { LinksFunction } from '@remix-run/node';
 import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useRouteError } from '@remix-run/react';
 import { FC } from 'react';
+import { View } from 'reactjs';
 import styles from './tailwind.css';
 
 export const links: LinksFunction = () => [
@@ -15,7 +16,9 @@ export function ErrorBoundary() {
   return (
     <html lang="en">
       <head>
-        <title>Oh no!</title>
+        <View tagName="title" disableStrict>
+          Oh no!
+        </View>
         <Meta />
         <Links />
       </head>

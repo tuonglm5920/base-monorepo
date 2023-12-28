@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import './ConfirmLeavePage.css';
+import { Text, View } from 'reactjs';
 
 interface Props {
   isOpen: boolean;
@@ -14,13 +15,19 @@ export const ConfirmDialog: FC<Props> = ({ isOpen, onClose, onConfirm }) => {
   return (
     <div className="overlay">
       <div className="dialog">
-        <h2>Confirm Navigation</h2>
-        <p>You have unsaved changes. Are you sure you want to leave this page?</p>
+        <Text tagName="h1" disableStrict>
+          Confirm Navigation
+        </Text>
+        <Text tagName="p" disableStrict>
+          You have unsaved changes. Are you sure you want to leave this page?
+        </Text>
         <div className="actions">
-          <button onClick={onClose}>Cancel</button>
-          <button onClick={onConfirm} className="confirm">
+          <View tagName="button" disableStrict onClick={onClose}>
+            Cancel
+          </View>
+          <View tagName="button" disableStrict onClick={onConfirm} className="confirm">
             Leave
-          </button>
+          </View>
         </div>
       </div>
     </div>

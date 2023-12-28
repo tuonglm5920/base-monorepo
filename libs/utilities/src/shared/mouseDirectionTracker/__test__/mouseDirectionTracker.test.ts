@@ -1,3 +1,4 @@
+import { getPassiveArg } from '../../getPassiveArg';
 import { MouseDirectionTracker } from '../src/mouseDirectionTracker';
 
 describe('MouseDirectionTracker', () => {
@@ -23,8 +24,8 @@ describe('MouseDirectionTracker', () => {
   it('should attach event listeners on "on"', () => {
     const addEventListenerSpy = jest.spyOn(element, 'addEventListener');
     tracker.on();
-    expect(addEventListenerSpy).toHaveBeenCalledWith('mouseenter', tracker.getHandleHoverForTesting());
-    expect(addEventListenerSpy).toHaveBeenCalledWith('mouseleave', tracker.getHandleHoverForTesting());
+    expect(addEventListenerSpy).toHaveBeenCalledWith('mouseenter', tracker.getHandleHoverForTesting(), getPassiveArg());
+    expect(addEventListenerSpy).toHaveBeenCalledWith('mouseleave', tracker.getHandleHoverForTesting(), getPassiveArg());
   });
 
   it('should remove event listeners on "off"', () => {

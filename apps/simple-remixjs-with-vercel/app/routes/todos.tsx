@@ -1,6 +1,7 @@
 import { MetaFunction } from '@remix-run/node';
 import classNames from 'classnames';
 import { FC, useState } from 'react';
+import { Text, View } from 'reactjs';
 import FilterButton from '../components/FilterButton/FilterButton';
 import { Form } from '../components/Form/Form';
 import { Todo } from '../components/Todo/Todo';
@@ -93,7 +94,9 @@ const ListingTodos: FC = () => {
   return (
     <div className="app-container bg-gradient-to-r from-green-400 to-blue-500 flex h-screen">
       <div className="m-auto bg-primary-600 white p-6 rounded-lg text-white max-w-md w-full">
-        <h2 className="text-white text-xl font-semibold mb-4">TO DO LIST</h2>
+        <Text tagName="h2" disableStrict className="text-white text-xl font-semibold mb-4">
+          TO DO LIST
+        </Text>
         <Form addTodo={addTodo} />
         <ul className="todos">
           {todos.filter(FILTER_MAP[filter]).map(({ text, id, completed }) => (
@@ -112,17 +115,24 @@ const ListingTodos: FC = () => {
         </ul>
 
         <div className="hidden">
-          <button onClick={deleteAll}>Delete All</button>
-          <button onClick={toggleAll}>Toggle All</button>
-          <button onClick={completeAll}>Complete All</button>
+          <View tagName="button" disableStrict onClick={deleteAll}>
+            Delete All
+          </View>
+          <View tagName="button" disableStrict onClick={toggleAll}>
+            Toggle All
+          </View>
+          <View tagName="button" disableStrict onClick={completeAll}>
+            Complete All
+          </View>
         </div>
-        <div
+        <View
+          disableStrict
           className={classNames({
             hidden: !todos.length,
           })}
         >
           {filterList}
-        </div>
+        </View>
       </div>
     </div>
   );

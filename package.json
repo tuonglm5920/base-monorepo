@@ -5,7 +5,11 @@
     "husky:commitlint": "npx husky add .husky/commit-msg \"yarn commitlint --edit\"",
     "husky:lint-staged": "npx husky add .husky/pre-commit \"yarn lint-staged\"",
     "commit": "git-cz",
-    "<---------- END: HUSKY SETUP & COMMIT PROMPT ---------->": ""
+    "<---------- END: HUSKY SETUP & COMMIT PROMPT ---------->": "",
+    "typecheck": "nx run-many -t typecheck",
+    "lint": "nx run-many -t lint",
+    "stylelint": "nx run-many -t stylelint",
+    "test": "nx run-many -t test"
   },
   "private": true,
   "dependencies": {

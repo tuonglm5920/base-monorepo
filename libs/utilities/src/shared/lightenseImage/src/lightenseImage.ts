@@ -326,9 +326,9 @@ export class LightenseImage {
    */
 
   private _unbindCloseEvents = (): void => {
-    window.removeEventListener('keyup', this._onKeyUp, getPassiveArg());
-    window.removeEventListener('scroll', this._checkViewer, getPassiveArg());
-    this._$containerEl?.removeEventListener('click', this._removeViewer, getPassiveArg());
+    window.removeEventListener('keyup', this._onKeyUp);
+    window.removeEventListener('scroll', this._checkViewer);
+    this._$containerEl?.removeEventListener('click', this._removeViewer);
   };
 
   /**
@@ -393,6 +393,6 @@ export class LightenseImage {
     this._$headEl.removeChild(this._$styleEl);
     this._$targetEl.classList.remove(LightenseImage._targetClassName);
     this._$targetEl.removeEventListener('click', this._toggle);
-    window.removeEventListener('resize', this._handleResizeWindow, getPassiveArg());
+    window.removeEventListener('resize', this._handleResizeWindow);
   };
 }

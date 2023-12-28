@@ -1,5 +1,6 @@
 import { plusSvg } from 'assets';
 import { FC, FormEvent, useState } from 'react';
+import { Text } from 'reactjs';
 import { v4 } from 'uuid';
 import { Todo } from '../../models/Todo';
 
@@ -31,7 +32,9 @@ export const Form: FC<Props> = ({ addTodo }) => {
   return (
     <form className="text-white flex gap-1 w-full mb-4" onSubmit={handleSubmit}>
       <label htmlFor="todo" className="flex-1 mr-1">
-        <span className="hidden">Todo</span>
+        <Text tagName="span" disableStrict className="hidden">
+          Todo
+        </Text>
         <input
           className="w-full text-inherit px-1 py-2 border-0 border-b border-white bg-transparent outline-0"
           type="text"
@@ -46,7 +49,9 @@ export const Form: FC<Props> = ({ addTodo }) => {
         type="submit"
       >
         <img src={plusSvg} alt="plus" />
-        <span className="sr-only">Add Todo</span>
+        <Text tagName="span" disableStrict className="sr-only">
+          Add Todo
+        </Text>
       </button>
     </form>
   );

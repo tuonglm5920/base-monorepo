@@ -1,5 +1,6 @@
 import { MetaFunction } from '@remix-run/node';
 import { FC } from 'react';
+import { Text } from 'reactjs';
 
 export const meta: MetaFunction = () => {
   return [{ title: 'New Remix App' }, { name: 'description', content: 'Welcome to Remix!' }];
@@ -8,7 +9,9 @@ export const meta: MetaFunction = () => {
 const Index: FC = () => {
   return (
     <div style={{ fontFamily: 'system-ui, sans-serif', lineHeight: '1.8' }}>
-      <h1>Welcome to Remix!</h1>
+      <Text tagName="h1" disableStrict>
+        Welcome to Remix!
+      </Text>
     </div>
   );
 };
