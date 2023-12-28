@@ -13,6 +13,7 @@ export * from './inputMask';
 export * from './interpolate';
 export * from './isBrowser';
 export * from './isClampDate';
+export * from './lightenseImage';
 export * from './localStorage';
 export * from './mapClustering';
 export * from './mouseDirectionTracker';
