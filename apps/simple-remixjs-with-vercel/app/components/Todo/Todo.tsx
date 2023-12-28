@@ -1,6 +1,7 @@
 import { editSvg, trashCanSvg } from 'assets';
 import classNames from 'classnames';
 import { useEffect, useState, useRef, FC, FormEvent, ChangeEvent } from 'react';
+import { Text, View } from 'reactjs';
 import { Todo as TodoModel } from '../../models/Todo';
 
 interface Props {
@@ -69,7 +70,9 @@ export const Todo: FC<Props> = ({
           id={`input-${id}`}
           type="checkbox"
         />
-        <span className={completed ? 'line-through text-light' : ''}>{text}</span>
+        <Text tagName="span" disableStrict className={completed ? 'line-through text-light' : ''}>
+          {text}
+        </Text>
       </label>
       <form
         className={classNames({
@@ -85,9 +88,9 @@ export const Todo: FC<Props> = ({
           value={newText}
           onChange={handleEditInputChange}
         />
-        <button className="hidden" type="submit">
+        <View tagName="button" disableStrict className="hidden" type="submit">
           Update
-        </button>
+        </View>
       </form>
 
       <button className="ml-auto text-white" onClick={handleEditButtonClick}>
@@ -96,9 +99,9 @@ export const Todo: FC<Props> = ({
       <button className="ml-2 text-white" onClick={(): void => deleteTodo(id)}>
         <img src={trashCanSvg} alt="delete" />
       </button>
-      <button className="hidden" onClick={(): void => toggleTodo(id)}>
+      <View tagName="button" disableStrict className="hidden" onClick={(): void => toggleTodo(id)}>
         Toggle
-      </button>
+      </View>
     </li>
   );
 };

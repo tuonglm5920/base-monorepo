@@ -1,3 +1,4 @@
+import { getPassiveArg } from '../../getPassiveArg';
 import { ScrollLerp, ScrollLerpOptions } from '../src/scrollLerp';
 
 describe('ScrollLerp', () => {
@@ -19,7 +20,7 @@ describe('ScrollLerp', () => {
 
     scrollLerp.create();
 
-    expect(window.addEventListener).toHaveBeenCalledWith('scroll', expect.any(Function), false);
+    expect(window.addEventListener).toHaveBeenCalledWith('scroll', expect.any(Function), getPassiveArg());
   });
 
   it('destroy should remove event listener and reset styles', () => {
@@ -29,7 +30,7 @@ describe('ScrollLerp', () => {
     scrollLerp.create(); // first, attach the event listener
     scrollLerp.destroy(); // then, destroy it
 
-    expect(window.removeEventListener).toHaveBeenCalledWith('scroll', expect.any(Function), false);
+    expect(window.removeEventListener).toHaveBeenCalledWith('scroll', expect.any(Function));
   });
 
   it('onRender should be dispatched when scrolling', () => {
@@ -38,7 +39,7 @@ describe('ScrollLerp', () => {
 
     scrollLerp.create();
 
-    expect(window.addEventListener).toHaveBeenCalledWith('scroll', expect.any(Function), false);
+    expect(window.addEventListener).toHaveBeenCalledWith('scroll', expect.any(Function), getPassiveArg());
 
     // Simulate a scroll event
     const event = new Event('scroll');

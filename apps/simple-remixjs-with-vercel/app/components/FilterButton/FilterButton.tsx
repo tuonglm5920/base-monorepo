@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { Text, View } from 'reactjs';
 
 interface Props {
   /** ### Mô tả */
@@ -11,11 +12,17 @@ interface Props {
 
 const FilterButton: FC<Props> = ({ name, isPressed, setFilter }) => {
   return (
-    <button className="px-3 py-1" onClick={(): void => setFilter(name)} aria-pressed={isPressed}>
-      <span className="sr-only">Show</span>
-      <span>{name}</span>
-      <span className="sr-only">Tasks</span>
-    </button>
+    <View tagName="button" className="px-3 py-1" onClick={(): void => setFilter(name)} aria-pressed={isPressed}>
+      <Text tagName="span" disableStrict className="sr-only">
+        Show
+      </Text>
+      <Text tagName="span" disableStrict>
+        {name}
+      </Text>
+      <Text tagName="span" disableStrict className="sr-only">
+        Tasks
+      </Text>
+    </View>
   );
 };
 
