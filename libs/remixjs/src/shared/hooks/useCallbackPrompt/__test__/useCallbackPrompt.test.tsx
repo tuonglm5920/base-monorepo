@@ -1,3 +1,4 @@
+/* eslint-disable @nx/workspace/no-strings-outside-text-component */
 import { act } from '@testing-library/react';
 import { createElement } from 'react';
 import { Root, createRoot } from 'react-dom/client';
