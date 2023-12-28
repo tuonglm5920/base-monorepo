@@ -22,5 +22,5 @@ export type {
   TransformOptions,
 } from 'remix-image';
 
-export { Image } from './components/Image';
-export type { Props as ImageProps } from './components/Image';
+export { Image } from './src/components/Image';
+export type { Props as ImageProps } from './src/components/Image';
