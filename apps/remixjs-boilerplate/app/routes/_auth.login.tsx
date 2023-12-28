@@ -1,7 +1,7 @@
 import { ActionFunctionArgs, TypedResponse } from '@remix-run/node';
 import { Form } from '@remix-run/react';
 import { Text, View } from 'reactjs';
-import { authSessionStorage } from '../packages/Auth/sessionStorage';
+import { authSessionStorage } from '~/packages/Auth/sessionStorage';
 
 interface ActionResponse {
   message: string;

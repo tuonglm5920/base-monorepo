@@ -4,7 +4,7 @@ import { image1 } from 'assets';
 import { FC, useState } from 'react';
 import { QRScanner } from 'reactjs';
 import { Image, MimeType } from 'remixjs/client';
-import { Button } from '../components/Button/Button';
+import { Button } from '~/components/Button/Button';
 
 export const meta: MetaFunction = () => {
   return [{ title: 'New Remix App' }, { name: 'description', content: 'Welcome to Remix!' }];

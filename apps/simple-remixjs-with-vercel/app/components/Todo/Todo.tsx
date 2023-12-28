@@ -2,7 +2,7 @@ import { editSvg, trashCanSvg } from 'assets';
 import classNames from 'classnames';
 import { useEffect, useState, useRef, FC, FormEvent, ChangeEvent } from 'react';
 import { Text, View } from 'reactjs';
-import { Todo as TodoModel } from '../../models/Todo';
+import { Todo as TodoModel } from '~/models/Todo';
 
 interface Props {
   text: string;
